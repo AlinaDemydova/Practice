@@ -2,11 +2,16 @@
 	margin: 0;
 	padding: 0;
 }
+*:focus {
+    outline: none;
+    box-shadow: 0px 0px 7px blue;
+}
 
 body {
 	margin: 0 auto;
 	width: 1366px;
 	height: 2283px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -44,41 +49,36 @@ body {
 }
 
 h1 {
-	width: 281px;
-	height: 156px;
 	color: #262f32;
-	font-family: Roboto;
 	font-size: 40px;
 	font-weight: 700;
 	line-height: 57.75px;
-	font-family: Roboto-Light;
-	font-weight: 300;
 	letter-spacing: 1.37px;
 	margin-left: 54px;
 	margin-top: 74px;
 }
 
-h1 span {
-	font-family: Roboto-Bold;
+h1 .ali {
+	font-weight: 300;
+}
+
+h1 .web {
 	font-weight: 700;
 }
 
 h1 .project {
-	font-family: Roboto-Regular;
 	font-weight: 400;
 }
 
 .header_texts p {
-	width: 327px;
-	height: 239px;
 	color: #262f32;
-	font-family: Roboto;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 28px;
 	letter-spacing: 0.62px;
 	margin-left: 54px;
 	margin-top: 59px;
+	margin-right: 77px;
 }
 
 .main {
@@ -88,57 +88,44 @@ h1 .project {
 .main_left_block {
 	width: 614px;
 	height: 854px;
-	background-color: rgba(30, 146, 175, 0.75);
+	background-image: url(img/bg1.png);
+	box-sizing: border-box;
+	
+}
+.main_left_block_inside {
+	margin-left: 59px;
+	margin-right: 103px;
+	margin-top: 70px;
 }
 
-.main_left_block img {
-	position: relative;
-	z-index: -2;
-	top: -786px;
-}
-
-.h2_1, .h2_2, .h2_3 {
-	width: 400px;
-	height: 45px;
+h2 {
 	color: #ffffff;
 	font-size: 45px;
 	font-weight: 300;
-	line-height: 66px;
-	position: relative;
-	z-index: 5;
-	margin-left: 63px;
-}
-
-.h2_1 {
-	padding-top: 70px;
+	line-height: 45px;	
+	letter-spacing: 1.35px;
 }
 
 .h2_2 {
-	padding-top: 86px;
+	margin-top: 86px;
 }
 
 .h2_3 {
-	padding-top: 85px;
+	margin-top: 85px;
 }
 
 .h2_1_1 {
-	font-family: Roboto-Light;
 	font-weight: 300;
 }
 
 .h2_1_2 {
-	font-family: Roboto-Black;
 	font-weight: 900;
 }
 
 .main_left_block p {
 	margin-top: 37px;
-	margin-left: 59px;
-	width: 452px;
-	height: 100px;
 	opacity: 0.88;
 	color: #ffffff;
-	font-family: Roboto;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 28px;
@@ -153,32 +140,20 @@ h1 .project {
 .main_right_1block {
 	width: 752px;
 	height: 427px;
-	background-color: rgba(255, 244, 210, 0.91);
+	background-image: url(img/bg2.png);
 }
 
 .main_right_2block {
 	width: 752px;
 	height: 427px;
-	background-color: rgba(22, 38, 51, 0.75);
-}
-
-.main_right_1block img, .main_right_2block img {
-	position: relative;
-	z-index: -2;
-	top: -356px;
+	background-image: url(img/bg3.png);
 }
 
 .main_right_1block h3, .main_right_2block h3 {
-	width: 350px;
-	height: 45px;
-	font-family: Roboto-Black;
 	font-size: 45px;
-	font-weight: 400;
-	line-height: 66px;
-	font-family: Roboto;
 	font-weight: 300;
 	letter-spacing: 1.35px;
-	padding-top: 70px;
+	margin-top: 70px;
 	margin-left: 58px;
 }
 
@@ -191,16 +166,11 @@ h1 .project {
 }
 
 .h3_ {
-	font-family: Roboto-Bk;
 	font-weight: 900;
 	letter-spacing: 1.35px;
 }
 
 .main_right_blocks p {
-	width: 536px;
-	height: 100px;
-	width: 536px;
-	height: 100px;
 	opacity: 0.88;
 	font-family: Roboto;
 	font-size: 16px;
@@ -210,6 +180,7 @@ h1 .project {
 	margin-top: 37px;
 	margin-left: 54px;
 	margin-bottom: 54px;
+	margin-right: 162px;
 }
 
 .main_right_1block p {
@@ -224,10 +195,8 @@ h1 .project {
 	width: 210px;
 	height: 50px;
 	border-radius: 7px;
-	font-family: Roboto;
 	font-size: 17px;
 	font-weight: 400;
-	line-height: 32px;
 	letter-spacing: 0.5px;
 	line-height: 50px;
 	justify-content: center;
@@ -249,26 +218,20 @@ h1 .project {
 .footer_left {
 	width: 458px;
 	height: 715px;
-	background-color: rgba(29, 83, 103, 0.75);
+	background-image: url(img/bg4.png);
 }
 
 h4 {
-	width: 343px;
-	height: 111px;
 	color: #ffffff;
-	font-family: Roboto;
 	font-size: 45px;
-	font-weight: 300;
 	line-height: 66px;
-	font-family: Roboto-Light;
 	font-weight: 300;
 	letter-spacing: 1.35px;
 	margin-left: 48px;
-	padding-top: 74px;
+	margin-top: 74px;
 }
 
 h4 span {
-	font-family: Roboto-Black;
 	font-weight: 900;
 }
 
@@ -280,14 +243,11 @@ h4 span {
 }
 
 .footer_left h5 {
-	width: 184px;
-	height: 41px;
 	margin-left: 58px;
 	margin-top: 34px;
 	color: #ffffff;
-	font-family: Roboto-Black;
 	font-size: 42px;
-	font-weight: 900;
+	font-weight: 700;
 	line-height: 41px;
 	letter-spacing: 1.26px;
 }
@@ -296,19 +256,12 @@ h4 span {
 	width: 145px;
 	height: 17px;
 	color: #ffffff;
-	font-family: Roboto;
 	font-size: 17px;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 17px;
 	letter-spacing: 0.5px;
 	margin-top: 19px;
 	margin-left: 58px;
-}
-
-.footer_left img[alt="footer_left_img"] {
-	position: relative;
-	z-index: -2;
-	top: -642px;
 }
 
 footer {
@@ -319,11 +272,9 @@ h5 {
 	width: 250px;
 	height: 45px;
 	color: #ffffff;
-	font-family: Roboto-Black;
 	font-size: 45px;
 	font-weight: 400;
 	line-height: 66px;
-	font-family: Roboto;
 	font-weight: 300;
 	letter-spacing: 1.35px;
 	margin-left: 57px;
@@ -331,14 +282,13 @@ h5 {
 }
 
 h5 span {
-	font-family: Roboto-Bk;
 	font-weight: 900;
 }
 
 .footer_right {
 	width: 908px;
 	height: 715px;
-	background-color: rgba(90, 102, 95, 0.5);
+	background-image: url(img/bg5.png);
 }
 
 input[value="Your Name"] {
@@ -350,7 +300,6 @@ input[value="Your Name"] {
 	margin-left: 54px;
 	border-radius: 10px;
 	color: #ffffff;
-	font-family: Roboto;
 	font-size: 17px;
 	font-weight: 400;
 	line-height: 32px;
@@ -367,7 +316,6 @@ input[value="Your Email"] {
 	margin-left: 8px;
 	border-radius: 10px;
 	color: #ffffff;
-	font-family: Roboto;
 	font-size: 17px;
 	font-weight: 400;
 	line-height: 32px;
@@ -477,10 +425,4 @@ div textarea {
 
 .social_third {
 	background-color: #00b4ff;
-}
-
-.footer_right img[alt="footer_right_img.png"] {
-	position: relative;
-	z-index: -2;
-	top: -640px;
 }
